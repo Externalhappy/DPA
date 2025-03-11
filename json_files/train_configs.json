@@ -1,0 +1,146 @@
+{   
+    "dtd_ViT-B/32": {
+        "model_patch_size" : 64,
+        "warm_it"          : 100,
+        "w"                : 100,
+        "a"                : 0.2, 
+        "reg"              : 1,
+        "align"            : 1,
+        "lr"               : 5e-5,
+        "epochs"           : 15,
+        "eval_freq"        : 5
+    },
+    "caltech101_ViT-B/32": {
+        "model_patch_size" : 64,
+        "warm_it"          : 100,
+        "w"                : 100,
+        "a"                : 0.5, 
+        "reg"              : 1,
+        "align"            : 1,
+        "lr"               : 1e-4,
+        "epochs"           : 15,
+        "eval_freq"        : 5
+    },
+    "flowers_ViT-B/32": {
+        "model_patch_size" : 64,
+        "warm_it"          : 200,
+        "w"                : 1,
+        "a"                : 0.5, 
+        "reg"              : 1,
+        "align"            : 1,
+        "lr"               : 1e-4,
+        "epochs"           : 15,
+        "eval_freq"        : 2
+    },
+    "eurosat_ViT-B/32": {
+        "model_patch_size" : 64,
+        "warm_it"          : 100,
+        "w"                : 1,
+        "a"                : 0.5, 
+        "reg"              : 1,
+        "align"            : 0.01,
+        "lr"               : 3e-5,
+        "epochs"           : 10,
+        "eval_freq"        : 5
+    },
+	"fgvc_ViT-B/32": {
+        "model_patch_size" : 64,
+        "warm_it"          : 100,
+        "w"                : 100,
+        "a"                : 0.5, 
+        "reg"              : 1,
+        "align"            : 1,
+        "lr"               : 3e-6,
+        "epochs"           : 10,
+        "eval_freq"        : 5
+    },
+    "pets_ViT-B/32": {
+        "model_patch_size" : 64,
+        "warm_it"          : 100,
+        "w"                : 100,
+        "a"                : 0.01, 
+        "reg"              : 1,
+        "align"            : 1,
+        "lr"               : 7e-5,
+        "epochs"           : 15,
+        "eval_freq"        : 5
+    },
+    "cars_ViT-B/32": {
+        "model_patch_size" : 64,
+        "warm_it"          : 100,
+        "w"                : 100,
+        "a"                : 0.5, 
+        "reg"              : 1,
+        "align"            : 1,
+        "lr"               : 5e-6,
+        "epochs"           : 15,
+        "eval_freq"        : 5
+    },
+    "sun397_ViT-B/32": {
+        "model_patch_size" : 64,
+        "warm_it"          : 500,
+        "w"                : 100,
+        "a"                : 0.5, 
+        "reg"              : 0.2,
+        "align"            : 1,
+        "lr"               : 1e-6,
+        "epochs"           : 15,
+        "eval_freq"        : 2
+    },
+    "cifar10_ViT-B/32": {
+        "model_patch_size" : 64,
+        "warm_it"          : 100,
+        "w"                : 100,
+		"a"                : 0.1,
+        "reg"              : 1,
+        "align"            : 0.1,
+        "lr"               : 8e-5,
+        "epochs"           : 15,
+        "eval_freq"        : 5
+    },
+    "cifar100_ViT-B/32": {
+        "model_patch_size" : 64,
+        "warm_it"          : 100,
+        "w"                : 100,
+        "a"                : 0.2, 
+        "reg"              : 1,
+        "align"            : 1,
+        "lr"               : 1e-5,
+        "epochs"           : 15,
+        "eval_freq"        : 5
+    },
+    "ucf101_ViT-B/32": {
+        "model_patch_size" : 64,
+        "warm_it"          : 500,
+        "w"                : 100,
+        "a"                : 0.5, 
+        "reg"              : 1,
+        "align"            : 1,
+        "lr"               : 1e-5,
+        "epochs"           : 15,
+        "eval_freq"        : 5
+    }, 
+    "food101_ViT-B/32": {
+        "model_patch_size" : 64,
+        "warm_it"          : 2000,
+        "w"                : 100,
+        "a"                : 0.2, 
+        "reg"              : 1,
+        "align"            : 1,
+        "lr"               : 1e-6,
+        "epochs"           : 15,
+        "eval_freq"        : 2
+    },
+    "imagenet_ViT-B/32": {
+        "model_patch_size" : 64,
+        "warm_it"          : 2000,
+        "w"                : 100,
+        "a"                : 0.5, 
+        "reg"              : 1,
+        "align"            : 1,
+        "lr"               : 1e-6,
+        "epochs"           : 15,
+        "eval_freq"        : 5
+    }
+
+}
